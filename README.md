@@ -60,7 +60,7 @@ The project comes with a UsersTableSedder.php class with the following:
 OR
 
 2b) Import database
-[Laravel Admin DB]
+[Laravel Admin DB](https://github.com/jcadima/laravel-admin/blob/master/laraveladmin.sql)
 
 Which will create the same demo user from step 2a<br>
 user: demo@test.com <br/>
