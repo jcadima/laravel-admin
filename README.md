@@ -10,7 +10,7 @@ You can read more details about this project [here](http://juancadima.com/integr
 1) Simply [download](https://github.com/jcadima/laravel-admin/archive/master.zip) or clone the repo:
 
 ```
-git clone git@github.com:jcadima/laravel-admin.git
+git clone https://github.com/jcadima/laravel-admin.git
 ```
 
 **NOTE**: If using MariaDB you might see an error about "key too long", to fix this open:
