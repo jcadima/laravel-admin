@@ -5,11 +5,10 @@ A starter Admin dashboard built with Laravel+AdminLTE (Laravel 5.5)
 ### Tutorial
 You can read more details about this project [here](http://juancadima.com/integrating-adminlte-laravel/)
 
-### Demo
+### Demo and user login info
 [link](http://laraveladmin.juancadima.com/login)
 
-### Credentials
-user: demo@test.com
+user: demo@test.com<br>
 password: demo2017
 
 ### How to install
@@ -25,7 +24,7 @@ git clone https://github.com/jcadima/laravel-admin.git
  /app/Providers/AppServiceProvider.php
 ```
 
-make the following changes so that it looks like:
+make the following changes so that AppServiceProvider looks like:
 
 ```php
 namespace App\Providers;
@@ -50,30 +49,14 @@ class AppServiceProvider extends ServiceProvider
 
 ```
 
-2a) Run the database seeder:
 
-```
-php artisan db:seed
-```
-
-The project comes with a UsersTableSedder.php class with the following:
-
-```php
-        App\User::create([
-            'name' => 'Demo User',
-            'email' => 'demo@test.com',
-            'password' => bcrypt('demo2017') 
-        ]);
-```
-
-OR
-
-2b) Import database
+2) Import database
 [Laravel Admin DB](https://github.com/jcadima/laravel-admin/blob/master/laraveladmin.sql)
 
-Which will create the same demo user from step 2a<br>
+Will create a user with the following credentials<br>
 user: demo@test.com <br/>
 pass: demo2017
+
 
 ### Requirements
 * PHP >= 7.0.0
@@ -92,6 +75,7 @@ pass: demo2017
 * [X] AdminLTE integrated
 * [X] Main dashboard page
 * [X] Users list in admin dashboard
+* [ ] Basic user CRUD operations
 
 
 ### Screenshots
