@@ -5,6 +5,12 @@ A starter Admin dashboard built with Laravel+AdminLTE (Laravel 5.5)
 ### Tutorial
 You can read more details about this project [here](http://juancadima.com/integrating-adminlte-laravel/)
 
+### Demo
+[link](http://laraveladmin.juancadima.com/login)
+
+### Credentials
+user: demo@test.com
+password: demo2017
 
 ### How to install
 1) Simply [download](https://github.com/jcadima/laravel-admin/archive/master.zip) or clone the repo:
