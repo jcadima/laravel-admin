@@ -11,8 +11,8 @@ You can read more details about this project [here](http://juancadima.com/integr
 user: demo@test.com<br>
 password: demo2017
 
-### How to install
-1) Simply [download](https://github.com/jcadima/laravel-admin/archive/master.zip) or clone the repo:
+### How to install 🤔
+(1) Simply [download](https://github.com/jcadima/laravel-admin/archive/master.zip) or clone the repo:
 
 ```
 git clone https://github.com/jcadima/laravel-admin.git
@@ -49,8 +49,34 @@ class AppServiceProvider extends ServiceProvider
 
 ```
 
+(2) Install Composer
+```
+composer install
+```
 
-2) Import database
+
+(3) Run Migrations
+```
+php artisan migrate
+```
+
+(4) Run DB seeder
+```
+php artisan db:seed
+```
+
+Seeder:
+```
+App\User::create([
+    'name'     => 'Demo User',
+    'email'    => 'demo@test.com',
+    'password' => bcrypt('demo2017') 
+]);
+```
+
+OR
+
+(4a) Import database
 [Laravel Admin DB](https://github.com/jcadima/laravel-admin/blob/master/laraveladmin.sql)
 
 Will create a user with the following credentials<br>
